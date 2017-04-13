@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<title> Hello from flask </title>
+
+<style style="text/css">
+body  {
+    background-image:url("Background.jpg"); background-position: 50% 50%; background-repeat;
+}
+</style>
+</head>
+
+<body>
+
+
+    <h1> World World: a site for picture-to-text translation, matching up of fellow language-speakers, and online learning with our chatroom!</h1>
+    
+
+
+
+    <div id="contact-form">
+        <h1>Register for an account:</h1>
+        <form method="post" action="/signup">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" value=""
+            placeholder="John Smith" required="required" autofocus="autofocus" />
+            <input type="submit" value="Submit" id="submit-button"
+            />
+        </form>
+    </div>
+</body>
+</html>
